@@ -1,0 +1,55 @@
+# -------------------------------------------------------------------
+# Environment Variables & Secrets (CRITICAL: Never commit these)
+# -------------------------------------------------------------------
+.env
+.env.local
+.env.*.local
+*.env
+*.pem
+*.key
+
+# -------------------------------------------------------------------
+# Package Manager Dependencies (Regenerated via lockfiles)
+# -------------------------------------------------------------------
+node_modules/
+bower_components/
+jspm_packages/
+.pnp/
+.pnp.js
+
+# -------------------------------------------------------------------
+# Build, Distribution, and Cache Outputs
+# -------------------------------------------------------------------
+dist/
+build/
+out/
+.next/
+.nuxt/
+target/
+*.exe
+*.dll
+*.so
+*.log
+*.tmp
+
+# -------------------------------------------------------------------
+# IDEs and Text Editors Configurations
+# -------------------------------------------------------------------
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# -------------------------------------------------------------------
+# System Files (OS-specific junk)
+# -------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
